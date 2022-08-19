@@ -1,0 +1,11 @@
+[package]
+name = "counter"
+version = "0.0.0"
+
+[dependencies]
+MoveStdlib = { git = "https://github.com/move-language/move.git", subdir = "language/move-stdlib", rev = "main" }
+AptosFramework = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-framework", rev = "devnet" }
+
+[addresses]
+std =  "0x1"
+counter = "0x2"
